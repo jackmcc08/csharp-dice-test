@@ -1,0 +1,15 @@
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/simpleDice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/simpleDice.AssemblyInfoInputs.cache
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/simpleDice.AssemblyInfo.cs
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/simpleDice.csproj.CoreCompileInputs.cache
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/bin/Debug/net5.0/simpleDice.deps.json
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/bin/Debug/net5.0/simpleDice.runtimeconfig.json
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/bin/Debug/net5.0/simpleDice.runtimeconfig.dev.json
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/bin/Debug/net5.0/simpleDice.dll
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/bin/Debug/net5.0/ref/simpleDice.dll
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/bin/Debug/net5.0/simpleDice.pdb
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/simpleDice.dll
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/ref/simpleDice.dll
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/simpleDice.pdb
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/simpleDice.genruntimeconfig.cache
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/simpleDice.csproj.AssemblyReference.cache
