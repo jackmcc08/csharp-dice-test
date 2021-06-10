@@ -12,4 +12,3 @@
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/ref/simpleDice.dll
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/simpleDice.pdb
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/simpleDice.genruntimeconfig.cache
-/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDice/obj/Debug/net5.0/simpleDice.csproj.AssemblyReference.cache
