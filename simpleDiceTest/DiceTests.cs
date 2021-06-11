@@ -42,7 +42,7 @@ namespace simpleDiceTest
 
             // Act
             Dice testDice = new Dice();
-            int[] actual = testDice.RollDice(2, true);
+            int[] actual = testDice.RollDice(2, out int rollScore, true);
             int actualLength = actual.Length;
 
             // Assert
@@ -58,30 +58,38 @@ namespace simpleDiceTest
 
             // Act
             Dice testDice = new Dice();
-            testDice.RollDice(2, true);
-            testDice.RollDice(3, true);
-            testDice.RollDice(1, true);
+            testDice.RollDice(2, out int rollScore, true);
+            testDice.RollDice(3, out int rollScore2, true);
+            testDice.RollDice(1, out int rollScore3, true);
 
             // Assert
             Assert.AreEqual(expected, testDice.TotalScore, "these rolls are not the same");
         }
 
-        //public void CanRollThreeSetsOfDice_AndStoreResults()
-        //{
-        //    // Arrange
-        //    int[][] expectedArray = new int[3][];
-        //    expectedArray[0] = new int[] { 2, 2 };
-        //    expectedArray[1] = new int[] { 2, 2, 2 };
-        //    expectedArray[2] = new int[] { 2 };
+        [TestMethod]
+        public void CanRollThreeSetsOfDice_AndStoreResults()
+        {
+            // Arrange
+            int[][] expectedArray = new int[3][];
+            expectedArray[0] = new int[] { 2 };
+            expectedArray[1] = new int[] { 2 };
+            expectedArray[2] = new int[] { 2 };
+            int expectedLength = expectedArray.Length;
 
-        //    // Act
-        //    Dice.RollDice(2, true);
-        //    Dice.RollDice(3, true);
-        //    Dice.RollDice(1, true);
+            // Act
+            Dice testDice = new Dice();
+            testDice.RollDice(1, out int rollScore, true);
+            testDice.RollDice(1, out int rollScore2, true);
+            testDice.RollDice(1, out int rollScore3, true);
+            //int[][] actualArray = testDice.RollHistory;
+            int actualLength = testDice.RollHistory.Length;
 
-        //    // Assert
-        //    CollectionAssert.AreEqual(expectedArray, Dice.rollHistory, "The Array history is not the same");
 
-        //}
+
+            // Assert
+            Assert.AreEqual(expectedLength, actualLength, "the arrays are not the same length");
+            //CollectionAssert.AreEqual(expectedArray, testDice.RollHistory, $"The Array history is not the same {expectedArray[0][0]}, actual {testDice.RollHistory[0][0]}");
+
+        }
     }
 }

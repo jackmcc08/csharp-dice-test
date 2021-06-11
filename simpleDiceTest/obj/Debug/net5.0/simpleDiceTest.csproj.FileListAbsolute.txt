@@ -90,6 +90,7 @@
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDiceTest/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDiceTest/bin/Debug/net5.0/simpleDice.dll
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDiceTest/bin/Debug/net5.0/simpleDice.pdb
+/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDiceTest/obj/Debug/net5.0/simpleDiceTest.csprojAssemblyReference.cache
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDiceTest/obj/Debug/net5.0/simpleDiceTest.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDiceTest/obj/Debug/net5.0/simpleDiceTest.AssemblyInfoInputs.cache
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDiceTest/obj/Debug/net5.0/simpleDiceTest.AssemblyInfo.cs
@@ -99,4 +100,3 @@
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDiceTest/obj/Debug/net5.0/ref/simpleDiceTest.dll
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDiceTest/obj/Debug/net5.0/simpleDiceTest.pdb
 /Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDiceTest/obj/Debug/net5.0/simpleDiceTest.genruntimeconfig.cache
-/Users/jackmccarthy/Documents/code/cSharpProjects/simpleDice/simpleDiceTest/obj/Debug/net5.0/simpleDiceTest.csprojAssemblyReference.cache
