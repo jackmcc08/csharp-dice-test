@@ -1,13 +1,21 @@
 ﻿using System;
+using System.Collections;
 
 namespace simpleDice
 {
-    public class Dice
+    public class Program
     {
+
         public static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
+
+            Console.WriteLine("Hello World!");
             Console.WriteLine(WelcomeJungle());
+
+            Dice dice = new Dice();
+            //Console.WriteLine(dice.Roll());
+            //int[] result = dice.RollDice(2);
+            //Array.ForEach(result, Console.WriteLine);
 
             int numDice = 0;
             do
@@ -19,13 +27,14 @@ namespace simpleDice
                 try
                 {
                     userInputInt = Convert.ToInt32(userInput);
-                } catch 
+                }
+                catch
                 {
                     Console.WriteLine("Please enter a positive whole number above 0. e.g. 4");
                     continue;
                 }
 
-                numDice = userInputInt;                    
+                numDice = userInputInt;
             } while (numDice <= 0);
 
             Console.WriteLine($"You are going to roll {numDice} dice.");
@@ -38,12 +47,6 @@ namespace simpleDice
                 Console.Write($"{roll}, ");
             }
 
-
-            //Console.WriteLine(Roll());
-            //Array.ForEach(RollDice(2), Console.WriteLine);
-            //Array.ForEach(RollDice(2, true), Console.WriteLine);
-            //Console.WriteLine(RollDice(2));
-            //Console.WriteLine(RollDice(2, true));
         }
 
         public static string WelcomeJungle()
@@ -51,21 +54,6 @@ namespace simpleDice
             return "Welcome to the Jungle!";
         }
 
-        public static int Roll(bool test = false)
-        {
-            Random rnd = test ? new Random(1) : new Random();
-            return rnd.Next(1,6);
-        }
-
-        public static int[] RollDice(int numDice, bool test = false)
-        {
-            int[] results = new int[numDice];
-            for (int i = 0; i < numDice; i++)
-            {
-                results[i] = Roll(test);
-            }
-            return results;
-        }
     }
 }
 

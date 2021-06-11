@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{7B7B9EE7-F52B-4A13-8C53-BB16E567B04F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
+  <MonoDevelop.Ide.Workbench ActiveDocument="simpleDice/Dice.cs">
     <Files>
-      <File FileName="simpleDice/Program.cs" Line="1" Column="1" />
-      <File FileName="README.md" Line="11" Column="33" />
-      <File FileName="simpleDiceTest/UnitTest1.cs" Line="20" Column="1" NotebookId="1" />
+      <File FileName="simpleDice/Program.cs" Line="49" Column="1" />
+      <File FileName="simpleDice/EmptyClass.cs" Line="16" Column="15" />
+      <File FileName="README.md" Line="27" Column="3" />
+      <File FileName="simpleDiceTest/UnitTest1.cs" Line="77" Column="36" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="simpleDice" expanded="True">
-            <Node name="README.md" selected="True" />
-            <Node name="simpleDice" expanded="True" />
+            <Node name="simpleDice" expanded="True">
+              <Node name="Dice.cs" selected="True" />
+            </Node>
             <Node name="simpleDiceTest" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="ProjectDependencies" expanded="True" />
