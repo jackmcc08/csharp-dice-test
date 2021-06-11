@@ -39,7 +39,7 @@ namespace simpleDice
 
             Console.WriteLine($"You are going to roll {numDice} dice.");
 
-            int[] resultRolls = RollDice(numDice);
+            int[] resultRolls = dice.RollDice(numDice);
 
             Console.WriteLine("You rolled:");
             foreach (int roll in resultRolls)
@@ -47,6 +47,7 @@ namespace simpleDice
                 Console.Write($"{roll}, ");
             }
 
+            Console.WriteLine($"\nYour current score is: {dice.TotalScore}");
         }
 
         public static string WelcomeJungle()

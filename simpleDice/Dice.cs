@@ -5,7 +5,11 @@ namespace simpleDice
     {
         public Dice()
         {
+            this.TotalScore = 0;
         }
+
+        public int TotalScore
+        { get; set; }
 
         public int Roll(bool test = false)
         {
@@ -21,10 +25,10 @@ namespace simpleDice
                 results[i] = Roll(test);
             }
 
-            //foreach (int num in results)
-            //{
-            //    Dice.totalRollsScore += num;
-            //}
+            foreach (int num in results)
+            {
+                TotalScore += num;
+            }
 
             return results;
         }

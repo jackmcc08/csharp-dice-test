@@ -50,6 +50,7 @@ namespace simpleDiceTest
             CollectionAssert.AreEqual(expected, actual, "The thrown dice are not equal");
         }
 
+        [TestMethod]
         public void CalculateTotalOfRolls()
         {
             // Arrange
@@ -62,7 +63,7 @@ namespace simpleDiceTest
             testDice.RollDice(1, true);
 
             // Assert
-            Assert.AreEqual(expected, testDice.TotalScore(), "these rolls are not the same");
+            Assert.AreEqual(expected, testDice.TotalScore, "these rolls are not the same");
         }
 
         //public void CanRollThreeSetsOfDice_AndStoreResults()
